@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Avatar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+</head>
+<body>
+  
+
+  <section class="sub-header blog-header">
+
+    <nav>
+      <a href="index.html"> <img class="logo" src="images/avatar.jpg" alt=""></a>
+      <div class="nav-links " id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+ <h1 class="blog__header">Our Certificate & <br> Online Programms</h1>
+  </section>
+
+  <!-- blog page content -->
+  
+  <section class="blog-content">
+    <div class="row">
+      <div class="blog-left">
+        
+        <img src="images/certificate.jpg" alt="">
+        <h2>Our Certificate & Online Programms</h2>
+        <p>Want to bring your characters to life? Our online Animation Program focuses on the principles of animation, blending technical proficiency with creative development. You’ll learn the character animation process step-by-step, from muscle movements to animated character expressions. This concentration teaches you how rigging helps create impressive character motions as well as how to build epic battle scenes from the ground up.</p>
+        <br>
+        <p>Imagine creating environments and characters that you can actually play and incorporate into video games. Get ready to take hands-on classes in game development and design. Our program includes courses in 3D modeling, background character design and compositing. Let’s start building!</p>
+        <br>
+        <p>Our online degree program is designed to maximize student learning in a virtual setting. You will receive training from industry-experienced instructors and will learn the advanced editing software programs used by the pros. </p>
+        
+        <div class="comment-box">
+          <h3>Leave a comment</h3>
+          <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+          <textarea  rows="5" placeholder="Your comment"></textarea>
+          <button type="submit" class="hero-btn blue-btn">POST COMMENT</button>
+        </form>
+        </div>
+      </div>
+      <div class="blog-right">
+        <h3>Free Places</h3>
+        <div>
+          <span>Bachelor Degree</span>
+          <span>222</span>
+        </div>
+        <div>
+          <span>Graphic Desighn</span>
+          <span>121</span>
+        </div>
+        <div>
+          <span>Character Animation </span>
+          <span>115</span>
+        </div>
+        <div>
+          <span>Digital Filmmaking</span>
+          <span>60</span>
+        </div>
+        <div>
+          <span>Audio Production</span>
+          <span>21</span>
+        </div>
+        <div>
+          <span>Music Production </span>
+          <span>10</span>
+        </div>
+        
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+  
+
+<!-- ......Footer..................... -->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam porro dicta nobis <br> consectetur totam distinctio!</p>
+<div class="icons">
+  <i class="fab fa-facebook"></i>
+  <i class="fab fa-instagram"></i>
+  <i class="fab fa-twitter"></i>
+  <i class="fab fa-linkedin"></i>
+</div>
+<p>Made with dedication  <i class="far fa-heart"></i></p>
+</section>
+
+
+
+
+
+  <!---------JavaScripts For Toggle Menu---->
+  <script>
+
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+</body>
+
+</html>

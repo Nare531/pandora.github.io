@@ -1,0 +1,108 @@
+.nav1 video{
+  width: 100%;
+  height: 60vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 0;
+
+}
+
+.nav1 {
+  width: 100%;
+  height: 20vh;
+  position: relative;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.video-text{
+  color: aqua;
+  z-index: 2;
+
+}
+
+img .logo{
+  z-index: 3;
+}
+@media(max-width:700px){
+  .nav-links{
+    z-index: 3;
+  }
+}
+
+
+@media(max-width:700px){
+  .text-box{
+    width: 90%;
+    color: #ffffffe5;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    }
+   
+  }
+  
+  @media(max-width:700px){
+    .text-box h1{
+      font-size: 25px;
+    }
+  
+  .nav-links ul li{
+    display: block;
+  }
+  
+  .nav-links{
+    background:  rgb(5, 129, 167);
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+    z-index: 5;
+   
+  }
+  
+  nav .fas{
+        
+    display: block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .nav-link ul{
+    padding: 30px;
+    
+  }
+  .nav-links i .fa-times,.fa-bars{
+    color: #fff;
+    z-index: 20;
+  }
+}
+  
+
+.video-nav ul li a{
+  color: #fff;
+
+}
+/* ......Differences ..................................... */
+.course-sub-header{
+  background-image: none;
+}
+
+.col-course{
+  background-color: rgb(44, 43, 43);
+}
+
+.course-pgh{
+  color: #e9e3e3;
+}

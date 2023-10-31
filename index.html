@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Pandora</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+</head>
+
+<body>
+  
+
+  <section class="header">
+
+    <nav>
+      <a href="index.html"> <img class="logo" src="images/avatar.jpg" alt=""></a>
+      <div class="nav-links " id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>Welcome to the Pandora</h1>
+      <p>Become a part of Pandora. Unleash your talents and start your journey</p>
+      <a class="hero-btn" href="">Click for more info</a>
+
+    </div>
+
+  </section>
+  <!---------Courses------------------------>
+
+  <section class="course">
+    <h1>Career Counseling For Srudents And Grads</h1>
+    <div class="row">
+      <div class="course-col">
+        <h3 class="line">What Can We do?</h3>
+        <p class="course-col_pgr">We’re your go-to professional guidance resource! Find internship opportunities.</p>
+      </div>
+
+      <div class="course-col">
+        <h3 class="line">CareerConnect </h3>
+        <p class="course-col_pgr">Beginning in their second month, students have access to Career Development’s online platform, CareerConnect. This virtual portal offers 24/7 access to tools and connections to enhance employability. </p>
+      </div>
+
+      <div class="course-col">
+        <h3 class="line">Internship Program</h3>
+        <p class="course-col_pgr">Students in good standing for 10 months may be eligible for our internship program!</p>
+      </div>
+    </div>
+  </section>
+
+  <!--................ Campus................ -->
+  <section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>The Pandora Film School consists of the undergraduate Pandora College, 12 graduate and professional Schools, and the Radcliffe Institute for Advanced Study..</p>
+
+    <div class="row">
+      <div class="campus-col">
+        <img src="images/london.png" alt="">
+        <div class="layer">
+          <h3>London</h3>
+        </div>
+      </div>
+
+      <div class="campus-col">
+        <img src="images/newyork.png" alt="">
+        <div class="layer">
+          <h3>Paris</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="images//washington.png" alt="">
+        <div class="layer">
+          <h3>New York</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<!-- ........Testimonials............................... -->
+<section class="testimonials">
+  <h1>What Our Student Say</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, illum?</p>
+
+  <div class="row">
+    <div class="testimonial-col">
+      <img c src="images/user1.jpg" alt="">
+      <div>
+        <p>Whether you’re learning online or on our vibrant Paris campus, at The Pandora Film School, it’s all about you.  Your dreams, your creations, your future.</p>
+      <h3 class="name">Christine</h3>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      
+
+      </div>
+
+    </div>
+
+    <div class="testimonial-col">
+      <img src="images/user2.jpg" alt="">
+      <div>
+        <p>I'm grateful for everything. In this school u can boost your skills and become a leading expert in your field.You will never regret the decision to enroll in this school.</p>
+      <h3 class="name">Mark</h3>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h1>Enroll For Our Various Online Courses <br> Anywhere From The World</h1>
+<a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<!-- ......Footer..................... -->
+<section class="footer">
+  <h4>About us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam porro dicta nobis <br> consectetur totam distinctio!</p>
+<div class="icons">
+  <i class="fab fa-facebook"></i>
+  <i class="fab fa-instagram"></i>
+  <i class="fab fa-twitter"></i>
+  <i class="fab fa-linkedin"></i>
+</div>
+<p>Made with dedication  <i class="far fa-heart"></i></p>
+</section>
+
+
+
+
+
+  <!---------JavaScripts For Toggle Menu---->
+  <script>
+
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+</body>
+
+</html>

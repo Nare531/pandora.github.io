@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Avatar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+</head>
+<body>
+ 
+  <section class="sub-header">
+
+    <nav>
+      <a href="index.html"> <img class="logo" src="images/avatar.jpg" alt=""></a>
+      <div class="nav-links " id="navLinks">
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Abous Us</h1>
+ 
+  </section>
+  <!-- about us content -->
+ 
+  <section class="about-us">
+    
+    <div class="row">
+      <div class="about-col">
+        <h1>OUR MISSION</h1>
+        <p>The Pandora School’s mission is to inspire students with an inventive method of education that concentrates on preparation for career opportunities in the entertainment and media industries. <br> We do this through an immersive curriculum that integrates technical knowledge with artistic exploration and creativity in a hands-on learning environment, taught by industry-experienced professionals in the heart of Hollywood, the premier entertainment capital of the world. <br>
+          <br> Our programs are designed around current technology and industry practices, enabling aspiring talent to discover their individual voices through collaboration and realize their career goals in entertainment and media.</p>
+      <a href="" class="hero-btn blue-btn">EXPLORE NOW</a>
+      </div>
+      <div class="about-col">
+        <img src="images/aboutus.webp" alt="">
+      </div>
+    </div>
+  </section>
+
+
+<!-- ......Footer..................... -->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam porro dicta nobis <br> consectetur totam distinctio!</p>
+<div class="icons">
+  <i class="fab fa-facebook"></i>
+  <i class="fab fa-instagram"></i>
+  <i class="fab fa-twitter"></i>
+  <i class="fab fa-linkedin"></i>
+</div>
+<p>Made with dedication  <i class="far fa-heart"></i></p>
+</section>
+
+
+
+
+
+  <!---------JavaScripts For Toggle Menu---->
+  <script>
+
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+</body>
+
+</html>

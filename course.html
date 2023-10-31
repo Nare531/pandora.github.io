@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="changes.css">
+  <title>Avatar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+</head>
+ 
+ <body>
+  
+
+  <section class="sub-header course-sub-header">
+   
+   
+    <nav >
+      <div class="nav1">
+      <video src="images/pexels-cottonbro-6896241 (2160p).mp4" type="video/mp4" autoplay muted loop></video>
+      <div class="video-text">
+        <a href="index.html"> <img class="logo" src="images/avatar.jpg" alt=""></a>
+      </div>
+      
+      <div class="nav-links  video-nav" id="navLinks" >
+        <i class="fas fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    </div>
+    </nav>
+
+ <h1>Our Courses</h1>
+  </section>
+
+  <!-- ......Course..................... -->
+
+ <section class="course">
+    <h1>Courses we offer</h1>
+    <p >At our film school, you’ll learn how to make movies, TV shows and become part of the entertainment industry.</p>
+    <div class="row">
+      <div class="course-col col-course ">
+        <h3 class="line ">PRODUCING <br> &#127916;</h3>
+        <p class="course-pgh flip__back ">Discover how to turn ideas into movies and become a catalyst for creative projects through our film producing concentration. </p>
+      </div>
+
+      <div class="course-col col-course">
+        <h3 class="line">FILM PRODUCTION &#127909;</h3>
+        <p class="course-pgh">Earn your Bachelor of Science Degree in Film Production. As a student, you’ll be exposed to every stage of film production through a theoretical and gear-centric curriculum..</p>
+      </div>
+
+      <div class="course-col col-course">
+        <h3 class="line">CINEMATOGRAPHY &#128253;</h3>
+        <p class="course-pgh"> Learn how to guide a film’s narrative through powerful imagery and become a master visual storyteller.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ...........SCHOLARSHIPS.................... -->
+
+  <section class="scholarships">
+    <h1> SCHOLARSHIPS AVAILABLE TO STUDENTS</h1>
+    <p>The Pandora Film School is dedicated to the encouragement and development of future generations of media professionals.</p>
+  
+    <div class="row">
+    <div class="scholarships-col">
+    <img src="images/fotoapparat_linza_obektiv_207221_360x640.jpg" alt="">
+  <h3>PATHWAY SCHOLARSHIP</h3>
+  <p>  The Pathway Scholarship  program will award up to $40,000 to students enrolled in campus-based bachelor’s degrees, and up to $20,000 for tuition costs to eligible students enrolled in campus-based associate degrees, over the course of their enrollment.</p>
+ </div>
+
+ <div class="scholarships-col">
+  <img src="images/scholarship.png" alt="">
+ <h3>MOMENTUM SCHOLARSHIP</h3>
+ <p>The Momentum Scholarship program will award up to $30,000 to students enrolled in online bachelor’s degrees, and up to $15,000 for tuition costs for eligible students enrolled in online associate degrees, over the course of their enrollment</p>
+ </div>
+
+ <div class="scholarships-col">
+  <img src="images/output-onlinepngtools (11).png" alt="">
+ <h3> PANDORA DREAMS SCHOLARSHIP</h3>
+ <p>Purpose: Assist with tuition gap for need-based students in the program that do not qualify for PLUS or private loans. This scholarship is awarded only after all other funding options have been exhausted and is offered at the discretion of the institution.</p>
+ </div>
+
+  
+ </div>
+  </section>
+
+
+  <!-- ......Footer..................... -->
+ <section class="footer">
+  <h4>About Us</h4>
+  <p>The Pandora Film School is accredited by the Accrediting Commission of Career Schools and Colleges (ACCSC).</p>
+ <div class="icons">
+  <i class="fab fa-facebook"></i>
+  <i class="fab fa-instagram"></i>
+  <i class="fab fa-twitter"></i>
+  <i class="fab fa-linkedin"></i>
+ </div>
+ <p>Made with dedication  <i class="far fa-heart"></i></p>
+ </section>
+
+
+
+
+
+  <!---------JavaScripts For Toggle Menu---->
+  <script>
+
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+ </body>
+
+  </html>
